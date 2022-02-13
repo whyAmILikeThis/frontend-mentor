@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main-content {
+    display: block;
+    width: 220px;
+    margin: 20% auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+#NFT-img {
+    display: block;
+    padding: 10px;
+    border-radius: inherit;
+    margin: 0px auto;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    hsl(178, 100%, 50%);
+}
+
+#NFT-name:visited {
+    color:white;
+}
+
+#NFT-name:hover {
+    color:hsl(178, 100%, 50%);
+}
+.text {
+    font-family: 'Outfit';
+    text-align: left;
+    padding: 0px 20px;
+}
+.first{
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.second {
+    font-size: 11px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+#NFT-img:hover {
+    border-radius: 50px; /*just to see if hover works*/
+}
+
+
+
+/*--------------------------------------------- part of card containing all the NFT information  ---------------------------------------------*/
+.info {
+    display: inline;
+    font-size: 11px;
+}
+
+.favicon {
+    height: 10px;
+}
+
+/* price and time line */
+.price {
+    text-align: left;
+    color:hsl(178, 100%, 50%);
+}
+
+.time-left {
+    text-align: right;
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+
+
+/*line properties*/
+#line {
+    color: hsl(215, 32%, 27%);
+    margin: 10px;
+}
+
+/* author pic and name */
+#author-img {
+    width: 30px;
+}
+
+.author {
+    vertical-align: center;
+    padding: 0px;
+}
+
+.author:hover {
+    color: hsl(178, 100%, 50%);
+}
