@@ -4,80 +4,117 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
 .main-content {
     display: block;
     width: 220px;
     margin: 20% auto;
     background-color: hsl(216, 50%, 16%);
-    border-radius: 15px;
+    border-radius: 20px;
+    box-shadow: hsl(214, 50%, 11%);
+    padding-top: 15px;
 }
+
+
+
+/*--------------------------------------------- NFT image  ---------------------------------------------*/
+
 
 #NFT-img {
     display: block;
-    padding: 10px;
-    border-radius: inherit;
-    margin: 0px auto;
-    width: 90%;
+    position: relative;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
 }
 
-a {
-    text-decoration: none;
-}
-a:hover {
-    hsl(178, 100%, 50%);
-}
-
-#NFT-name:visited {
-    color:white;
+#NFT-img:hover {
+    opacity: .5;
+    /*background-color: hsl(178, 100%, 50%);
+      ^^ not working because the opacity parameter is inherited */
 }
 
-#NFT-name:hover {
-    color:hsl(178, 100%, 50%);
+.NFT-img:hover + .eye-favicon, .eye-favicon:hover {
+    opacity: 1;
+    transition: .5s ease;
 }
+
+#eye-favicon {
+    width: 30px;
+}
+
+.eye-favicon {
+    position: relative;
+    top: -110px;
+    left: 96px;
+    width: 40px;
+    opacity: 0;
+}
+
 .text {
     font-family: 'Outfit';
     text-align: left;
     padding: 0px 20px;
 }
-.first{
+
+.NFT-title {
+    margin-top: -20px;
     font-size: 15px;
-    color: white;
     font-weight: 700;
 }
 
-.second {
+.NFT-description {
     font-size: 11px;
     color: hsl(220, 15%, 55%);
     font-weight: 400;
-    padding-bottom: 20px;
 }
 
-#NFT-img:hover {
-    border-radius: 50px; /*just to see if hover works*/
-}
-
-
-
-/*--------------------------------------------- part of card containing all the NFT information  ---------------------------------------------*/
+/*--------------------------------------------- NFT information  ---------------------------------------------*/
 .info {
     display: inline;
     font-size: 11px;
+    vertical-align: middle;
 }
 
 .favicon {
-    height: 10px;
+    vertical-align: middle;
+    height: 12px;
+}
+.ethereum {
+    padding-left: 20px;
 }
 
-/* price and time line */
+.clock {
+    padding-bottom: 3px;
+}
+
 .price {
+    padding-left: 0px;
     text-align: left;
+    font-weight: 700;
     color:hsl(178, 100%, 50%);
 }
 
 .time-left {
     text-align: right;
     padding-right: 0px;
-    padding-left: 30px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    color: hsl(220, 15%, 55%);
 }
 
 
@@ -85,16 +122,24 @@ a:hover {
 /*line properties*/
 #line {
     color: hsl(215, 32%, 27%);
-    margin: 10px;
+    margin: 10px 20px;
 }
 
 /* author pic and name */
 #author-img {
-    width: 30px;
+    width: 20px;
+    vertical-align: middle;
+    border: white solid 1px;
+    border-radius: 50%;
+}
+
+.creation {
+    vertical-align: middle;
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 50px;
 }
 
 .author {
-    vertical-align: center;
     padding: 0px;
 }
 
