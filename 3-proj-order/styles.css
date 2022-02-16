@@ -17,6 +17,7 @@ body {
     background-color: white;
     border-radius: 20px;
     box-shadow: hsl(214, 50%, 11%);
+    padding-bottom: 40px;
 }
 
 #music-img {
@@ -59,7 +60,7 @@ body {
 #music-favicon {
     width: 30px;
     float: left;
-    padding-top: 7px;
+    padding-top: 5px;
 }
 
 .subs-plan {
@@ -69,34 +70,47 @@ body {
     /* float: left; */
 }
 
-.change {
+.change, .change:visited {
     font-size: 11px;
     font-weight: 700;
     float: right;
     margin-top: -7px;
+    color: hsl(223, 47%, 23%);
 }
 
-.buttons {
+.change:hover {
+    text-decoration: none;
+}
+
+.button-1, .button-2 {
+    display: block;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+
 }
 
 .button-1 {
-    font-size: 11px; 
-    font-weight: 700;
     color: white;
     background-color: hsl(223, 47%, 23%);
     box-shadow: 0px 15px 10px hsl(225, 100%, 90%);
     margin-bottom: 5px;
 }
 
-.button-2 {
-    font-size: 11px;
-    font-weight: 700;
+.button-1:hover {
+    opacity: 0.7;
+}
+
+.button-2 {   
     background-color: transparent;
-    padding-top: -20px;
-    padding-bottom: 10%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 100px;
     color:hsl(223, 47%, 23%);
     margin: 0px;
 }
+
+
 
 
 /* this project will need some media queries as there are different
