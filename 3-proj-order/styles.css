@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Red+Hat+Display:wght@500&display=swap');
+
+
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+
+
+
+/* 
+font-family: 'Red Hat Display', sans-serif; */
+
+/* this project will need some media queries as there are different
+    background for different devices */
