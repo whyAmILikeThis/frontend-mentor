@@ -1,0 +1,12 @@
+html {
+    max-width: 1440px;
+}
+
+body {
+    background-color: white;
+    background: url(images/bg-pattern-top.svg) left -50% top 50% no-repeat, url(images/bg-pattern-bottom.svg) right -50% bottom 200% no-repeat;
+}
+
+#card {
+    visibility: hidden;
+}
