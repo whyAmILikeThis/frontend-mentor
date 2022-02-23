@@ -1,12 +1,74 @@
-html {
-    max-width: 1440px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter&family=Kumbh+Sans&family=Lexend+Deca&family=Outfit&family=Red+Hat+Display:wght@500&display=swap');
+
 
 body {
-    background-color: white;
-    background: url(images/bg-pattern-top.svg) left -50% top 50% no-repeat, url(images/bg-pattern-bottom.svg) right -50% bottom 200% no-repeat;
+    width: 100%;
+    height: 100%;
+    background: url(images/bg-pattern-top.svg) left -450px top -450px no-repeat, url(images/bg-pattern-bottom.svg) right -450px bottom -900px no-repeat;
+    
+    background-color: hsl(185, 75%, 39%);
 }
 
 #card {
-    visibility: hidden;
+    width: 350px;
+    margin: 15% auto auto auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.background-card img {
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+
+.profile-img {
+    margin-top: -5px;
+}
+
+.profile-img img {
+    margin-top: -48px;
+    margin-left: 127px;
+    border-radius: 50%;
+}
+
+.text {
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+}
+
+.name, .stat-count {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.name {
+    padding-top: 1em;
+    padding-bottom: .3em;
+}
+
+.age, .location, .stat-name {
+    font-weight: 400;
+    font-size: 11px;
+    color: hsl(0, 0%, 59%);
+}
+
+.age {
+    font-size: 16px;
+}
+
+.location {
+    padding-bottom: 1.5rem;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background-color: hsl(0, 0%, 80%);
+
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 15%;
 }
