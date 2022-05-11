@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
 .container {
     width: 400px;
+    padding: 2em;
     background-color: grey;
+    font-family: 'Overpass', sans-serif;
+}
+
+#star-img {
+    background-color: hsl(216, 12%, 54%);
+    padding: 1em;
+    border-radius: 50%;
 }
 
 /* .rating > ul {
@@ -24,9 +33,20 @@
     justify-content: space-evenly;
     padding: 0px;
     margin: 0px;
+    font-weight: 400;
 }
 
 #button {
     margin-left: auto;
     margin-right: auto;
+}
+
+.rate-point {
+    background-color: hsl(216, 12%, 54%);
+    padding: 1em 1.3em;
+    border-radius: 100%;
+}
+
+.rate-point:hover {
+    background-color: hsl(25, 97%, 53%);
 }
